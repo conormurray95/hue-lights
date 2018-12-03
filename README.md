@@ -7,6 +7,13 @@ STEPS
 6. npm start
 7. go to localhost:3000
 
+ADDITIONS
+1. Change the text to alternate between "Turn on" and "Turn off" 
+2. Add buttons for changing the lights to different colours (change the css for the buttons to match the colours)
+3. Add buttons to increase and decrease the brightness
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
