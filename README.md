@@ -1,19 +1,3 @@
-STEPS
-1. Open a terminal in the directory you want to install the app e.g. Users/puppet/documents
-2. git clone https://github.com/conormurraypuppet/hue-lights.git 
-3. cd hue-lights
-4. brew install npm
-5. npm install
-6. npm start
-7. go to localhost:3000
-
-ADDITIONS
-1. Change the text to alternate between "Turn on" and "Turn off" 
-2. Add buttons for changing the lights to different colours (change the css for the buttons to match the colours)
-3. Add buttons to increase and decrease the brightness
-
-
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

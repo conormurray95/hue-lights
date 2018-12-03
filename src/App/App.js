@@ -5,7 +5,7 @@ class App extends Component {
   constructor () {
     super()
     this.state = {
-      username: ''
+      on: true
     }
     this.handleClick = this.handleClick.bind(this)
   }
@@ -14,7 +14,8 @@ class App extends Component {
       .then(response => console.log(response))
     }
   turnLightOff() {
-    put('/lights/1/state', {"on":true});
+    put('/lights/1/state', {"on":!this.state.on}).
+    then(this.setState({on: !this.state.on}));
   }
 
   render () {
